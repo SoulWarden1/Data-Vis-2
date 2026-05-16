@@ -1,0 +1,65 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "width": 900,
+  "height": 700,
+
+  "projection": {
+    "type": "mercator",
+    "center": [145.0, -37.8],
+    "scale": 25000
+  },
+
+  "layer": [
+    {
+      "data": {
+        "url": "data/export.geojson",
+        "format": {
+          "type": "json",
+          "property": "features"
+        }
+      },
+
+      "transform": [
+        {
+          "calculate": "datum.geometry.type === 'Point' ? datum.geometry.coordinates[0] : null",
+          "as": "longitude"
+        },
+        {
+          "calculate": "datum.geometry.type === 'Point' ? datum.geometry.coordinates[1] : null",
+          "as": "latitude"
+        },
+        {
+          "filter": "datum.longitude != null && datum.latitude != null"
+        }
+      ],
+
+      "mark": {
+        "type": "circle",
+        "color": "#6b4f3b",
+        "opacity": 0.5,
+        "size": 18
+      },
+
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+
+        "tooltip": [
+          {
+            "field": "properties.name",
+            "type": "nominal",
+            "title": "Name"
+          }
+        ]
+      }
+    }
+  ]
+}
