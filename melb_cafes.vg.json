@@ -1,16 +1,32 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-  "width": 900,
-  "height": 700,
+  "title": { "text": "Cafes in Melbourne" },
+
+  "width": 600,
+  "height": 600,
 
   "projection": {
     "type": "mercator",
-    "center": [145.0, -37.8],
-    "scale": 25000
+    "center": [145.05, -37.9],
+    "scale": 40000
   },
 
   "layer": [
+    {
+      "data": {
+        "url": "data/LOCALITY_POLYGON.json",
+        "format": {
+          "type": "json"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#f5f5f5",
+        "stroke": "#999",
+        "strokeWidth": 0.7
+      }
+    },
     {
       "data": {
         "url": "data/export.geojson",

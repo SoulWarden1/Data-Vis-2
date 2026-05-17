@@ -1,0 +1,42 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 880,
+    "height": 700,
+    "projection": {
+        "type": "identity",
+        "reflectY": true
+    },
+    "data": {
+        "url": "data/LOCALITY_POLYGON_WITH_COUNTS.json",
+        "format": { "type": "json", "property": "features" }
+    },
+    "mark": {
+        "type": "geoshape",
+        "stroke": "#ffffff",
+        "strokeWidth": 0.4
+    },
+    "encoding": {
+        "color": {
+            "field": "properties.cafe_count",
+            "type": "quantitative",
+            "scale": {
+                "type": "sqrt",
+                "scheme": "orangered",
+                "domainMin": 0
+            },
+            "legend": { "title": "Café Count" }
+        },
+        "tooltip": [
+            {
+                "field": "properties.LOCALITY",
+                "type": "nominal",
+                "title": "Suburb"
+            },
+            {
+                "field": "properties.cafe_count",
+                "type": "quantitative",
+                "title": "Cafés"
+            }
+        ]
+    }
+}
