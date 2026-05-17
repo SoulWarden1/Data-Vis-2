@@ -1,7 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 880,
-    "height": 700,
+
+    "width": 700,
+    "height": 600,
     "projection": {
         "type": "identity",
         "reflectY": true

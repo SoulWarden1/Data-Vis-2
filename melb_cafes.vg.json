@@ -1,9 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-  "title": { "text": "Cafes in Melbourne" },
-
-  "width": 600,
+  "width": 700,
   "height": 600,
 
   "projection": {
@@ -73,7 +71,18 @@
             "field": "properties.name",
             "type": "nominal",
             "title": "Name"
+          },
+          {
+            "field": "properties.website",
+            "type": "nominal",
+            "title": "Website"
+          },
+          {
+            "field": "properties.phone",
+            "type": "nominal",
+            "title": "Phone"
           }
+
         ]
       }
     }

@@ -1,0 +1,30 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+    "width": 1000,
+    "height": 200,
+
+    "data": {
+        "url": "data/cafes_by_year.csv"
+    },
+
+    "mark": {
+        "type": "bar",
+        "size": 10
+    },
+    "encoding": {
+        "x": {
+            "field": "census_year",
+            "type": "quantitative",
+            "title": "Year",
+            "axis": { "format": "d" },
+            "scale": {"domain": [2001, 2025]}
+        },
+        "y": {
+            "field": "Number of Cafes",
+            "type": "quantitative",
+            "title": null,
+            "scale": {"domain": [0, 2100]}
+        }
+    }
+}

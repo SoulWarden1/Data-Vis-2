@@ -1,25 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+        <script src="melb_cafes_by_suburb.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
 
-    <script src="melb_cafes.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>Coffee Culture in Melbourne</title>
+    </head>
 
-    <title>First vega-lite graph </title>
-</head>
-
-<body>
-    <h1>First Vega-Lite graph</h1>
-    <div id="cafe_map"></div>
-    </div>
-</body>
-
+    <body>
+        <h1>Coffee Culture in Melbourne</h1>
+        <p>Melbourne is renowned for its vibrant coffee culture, with numerous cafés scattered throughout the city. We will now explore the intricacies of Melbourne's coffee scene.</p>
+        <div class="container">
+            <div>
+                <h2>Cafés in Melbourne</h2>
+                <span id="melb_cafes"></span>
+                <span id="melb_cafes_by_suburb"></span>
+                <p>Many of Melbourne's cafes are located in the inner-city suburbs, particularly in areas like Fitzroy, St Kilda, and Carlton. The further out from the city center, the fewer cafés there are.</p>
+            </div>
+            <div>
+                <h2>Cafés in Melbourne Over Time</h2>
+                <span id="melb_cafes_over_time"></span>
+                <p>Melbourne's coffee culture has seen significant growth over the years, with a steady increase in the number of cafés. This trend reflects the city's growing appreciation for quality coffee and the vibrant café scene that has become an integral part of Melbourne's identity. This growth has been impacted by COVID and the rise of working from home, but there is a steady rate of recovery.</p>
+            </div>
+            <div>
+                <h2>Coffee Prices</h2>
+                <span id="coffee_prices"></span>
+                <p>Comparing coffee prices across different cities throughout the world and Australia, we can see that while coffee in Melbourne is expensive compared to other Australian cities, globally it is still relatively affordable.</p>
+            </div>
+        </div>
+    </body>
 </html>
