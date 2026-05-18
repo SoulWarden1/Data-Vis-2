@@ -4,16 +4,29 @@
   "width": 700,
   "height": 600,
 
+  "params": [
+    { "name": "zoom",
+    "value": 1,
+    "bind": {
+      "input": "range",
+       "min": 0.5,
+        "max": 5,
+         "step": 0.1,
+          "name": "Zoom: "
+      }
+  }
+],
+
   "projection": {
     "type": "mercator",
     "center": [145.05, -37.9],
-    "scale": 40000
+    "scale": { "signal": "zoom * 40000" }
   },
 
   "layer": [
     {
       "data": {
-        "url": "../data/LOCALITY_POLYGON.json",
+        "url": "data/LOCALITY_POLYGON.json",
         "format": {
           "type": "json"
         }
@@ -27,7 +40,7 @@
     },
     {
       "data": {
-        "url": "../data/export.geojson",
+        "url": "data/export.geojson",
         "format": {
           "type": "json",
           "property": "features"

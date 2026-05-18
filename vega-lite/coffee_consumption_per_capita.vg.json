@@ -5,7 +5,7 @@
     "height": 200,
 
     "data": {
-        "url": "../data/coffee_consumption_per_capita.csv"
+        "url": "data/coffee_consumption_per_capita.csv"
     },
 
     "mark": {
