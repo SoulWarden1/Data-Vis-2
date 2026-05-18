@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
     "width": 700,
-    "height": 300,
+    "height": 400,
 
     "data": {
         "url": "data/LOCALITY_POLYGON_WITH_COUNTS.json",
@@ -59,7 +59,8 @@
     ],
 
     "mark": {
-        "type": "bar"
+        "type": "bar",
+        "size": 20
     },
 
     "encoding": {
