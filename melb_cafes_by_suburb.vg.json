@@ -1,8 +1,11 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-    "width": 700,
+    "title": "Number of Cafés by Suburb",
+
+    "width": "container",
     "height": 600,
+
     "projection": {
         "type": "identity",
         "reflectY": true

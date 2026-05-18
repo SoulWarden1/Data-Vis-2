@@ -10,7 +10,7 @@
 
     "mark": {
         "type": "bar",
-        "size": 10
+        "size": 15
     },
     "encoding": {
         "x": {
@@ -25,6 +25,18 @@
             "type": "quantitative",
             "title": null,
             "scale": {"domain": [0, 2100]}
-        }
+        },
+        "tooltip": [
+            {
+                "field": "census_year",
+                "type": "quantitative",
+                "title": "Year"
+            },
+            {
+                "field": "Number of Cafes",
+                "type": "quantitative",
+                "title": "No. of Cafés"
+            }
+        ]
     }
 }

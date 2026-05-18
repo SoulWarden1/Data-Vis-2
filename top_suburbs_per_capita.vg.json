@@ -1,0 +1,106 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+    "width": 700,
+    "height": 300,
+
+    "data": {
+        "url": "data/LOCALITY_POLYGON_WITH_COUNTS.json",
+        "format": {
+            "type": "json",
+            "property": "features"
+        }
+    },
+
+    "transform": [
+        {
+            "lookup": "properties.LOCALITY",
+            "from": {
+                "data": {
+                    "url": "data/population_by_suburb.csv"
+                },
+                "key": "Suburb",
+                "fields": ["Population"]
+            }
+        },
+
+        {
+            "calculate": "toNumber(datum.Population)",
+            "as": "population_value"
+        },
+
+        {
+            "filter": "datum.population_value >= 200"
+        },
+
+        {
+            "calculate": "(datum.properties.cafe_count / datum.population_value) * 1000",
+            "as": "cafes_per_1000"
+        },
+
+        {
+            "window": [
+                {
+                    "op": "rank",
+                    "as": "rank"
+                }
+            ],
+            "sort": [
+                {
+                    "field": "cafes_per_1000",
+                    "order": "descending"
+                }
+            ]
+        },
+
+        {
+            "filter": "datum.rank <= 10"
+        }
+    ],
+
+    "mark": {
+        "type": "bar"
+    },
+
+    "encoding": {
+        "x": {
+            "field": "cafes_per_1000",
+            "type": "quantitative",
+            "title": "Cafés per 1,000 People",
+            "axis": { "format": ".2f" },
+            "scale": {"domain": [0, 6]}
+        },
+        "y": {
+            "field": "properties.LOCALITY",
+            "type": "nominal",
+            "title": null,
+            "sort": {
+                "field": "cafes_per_1000",
+                "order": "descending"
+            }
+        },
+        "tooltip": [
+            {
+                "field": "properties.LOCALITY",
+                "type": "nominal",
+                "title": "Suburb"
+            },
+            {
+                "field": "properties.cafe_count",
+                "type": "quantitative",
+                "title": "Cafés"
+            },
+            {
+                "field": "population_value",
+                "type": "quantitative",
+                "title": "Population"
+            },
+            {
+                "field": "cafes_per_1000",
+                "type": "quantitative",
+                "title": "Cafés per 1,000 people",
+                "format": ".2f"
+            }
+        ]
+    }
+}
