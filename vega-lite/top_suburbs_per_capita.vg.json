@@ -23,21 +23,17 @@
                 "fields": ["Population"]
             }
         },
-
         {
             "calculate": "toNumber(datum.Population)",
             "as": "population_value"
         },
-
         {
             "filter": "datum.population_value >= 200"
         },
-
         {
             "calculate": "(datum.properties.cafe_count / datum.population_value) * 1000",
             "as": "cafes_per_1000"
         },
-
         {
             "window": [
                 {
@@ -52,56 +48,55 @@
                 }
             ]
         },
-
         {
             "filter": "datum.rank <= 10"
         }
     ],
 
-    "mark": {
-        "type": "bar",
-        "size": 20
-    },
-
     "encoding": {
-        "x": {
-            "field": "cafes_per_1000",
-            "type": "quantitative",
-            "title": "Cafés per 1,000 People",
-            "axis": { "format": ".2f" },
-            "scale": {"domain": [0, 6]}
-        },
         "y": {
             "field": "properties.LOCALITY",
             "type": "nominal",
             "title": null,
-            "sort": {
-                "field": "cafes_per_1000",
-                "order": "descending"
+            "sort": { "field": "cafes_per_1000", "op": "mean", "order": "descending" }
+        }
+    },
+
+    "layer": [
+        {
+            "mark": {
+                "type": "bar",
+                "size": 20
+            },
+            "encoding": {
+                "x": {
+                    "field": "cafes_per_1000",
+                    "type": "quantitative",
+                    "title": "Cafés per 1,000 People",
+                    "axis": { "format": ".2f" },
+                    "scale": { "domain": [0, 6] }
+                }
             }
         },
-        "tooltip": [
-            {
-                "field": "properties.LOCALITY",
-                "type": "nominal",
-                "title": "Suburb"
+        {
+            "mark": {
+                "type": "text",
+                "align": "right",
+                "baseline": "middle",
+                "dx": -4,
+                "color": "white"
             },
-            {
-                "field": "properties.cafe_count",
-                "type": "quantitative",
-                "title": "Cafés"
-            },
-            {
-                "field": "population_value",
-                "type": "quantitative",
-                "title": "Population"
-            },
-            {
-                "field": "cafes_per_1000",
-                "type": "quantitative",
-                "title": "Cafés per 1,000 people",
-                "format": ".2f"
+            "encoding": {
+                "x": {
+                    "field": "cafes_per_1000",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "cafes_per_1000",
+                    "type": "quantitative",
+                    "format": ".2f"
+                }
             }
-        ]
-    }
+        }
+    ]
 }
