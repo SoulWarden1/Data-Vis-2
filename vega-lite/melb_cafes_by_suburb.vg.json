@@ -28,7 +28,10 @@
                 "scheme": "orangered",
                 "domainMin": 0
             },
-            "legend": { "title": "Café Count" }
+            "legend": {
+                "title": "Café Count",
+                "orient": "bottom"
+            }
         },
         "tooltip": [
             {

@@ -9,7 +9,8 @@
     },
 
     "mark": {
-        "type": "bar"
+        "type": "bar",
+        "size": 20
     },
     "encoding": {
         "x": {

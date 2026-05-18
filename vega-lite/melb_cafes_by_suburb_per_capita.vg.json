@@ -63,7 +63,8 @@
             },
 
             "legend": {
-                "title": "Cafés per 1,000 people"
+                "title": "Cafés per 1,000 people",
+                "orient": "bottom"
             }
         },
 
