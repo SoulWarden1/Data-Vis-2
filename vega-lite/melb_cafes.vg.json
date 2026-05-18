@@ -13,7 +13,7 @@
   "layer": [
     {
       "data": {
-        "url": "data/LOCALITY_POLYGON.json",
+        "url": "../data/LOCALITY_POLYGON.json",
         "format": {
           "type": "json"
         }
@@ -27,7 +27,7 @@
     },
     {
       "data": {
-        "url": "data/export.geojson",
+        "url": "../data/export.geojson",
         "format": {
           "type": "json",
           "property": "features"

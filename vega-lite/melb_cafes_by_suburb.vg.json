@@ -11,7 +11,7 @@
         "reflectY": true
     },
     "data": {
-        "url": "data/LOCALITY_POLYGON_WITH_COUNTS.json",
+        "url": "../data/LOCALITY_POLYGON_WITH_COUNTS.json",
         "format": { "type": "json", "property": "features" }
     },
     "mark": {

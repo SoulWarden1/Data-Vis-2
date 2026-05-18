@@ -1,0 +1,40 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+    "width": 1000,
+    "height": 200,
+
+    "data": {
+        "url": "../data/coffee_consumption_per_capita.csv"
+    },
+
+    "mark": {
+        "type": "bar"
+    },
+    "encoding": {
+        "x": {
+            "field": "Consumption",
+            "type": "quantitative",
+            "title": "Consumption (kg per capita)",
+            "axis": { "tickMinStep": 0.5 }
+        },
+        "y": {
+            "field": "Location",
+            "type": "nominal",
+            "title": null,
+            "sort": "-x"
+        },
+        "tooltip": [
+            {
+                "field": "Location",
+                "type": "nominal",
+                "title": "Location"
+            },
+            {
+                "field": "Consumption",
+                "type": "quantitative",
+                "title": "Consumption (kg per capita)"
+            }
+        ]
+    }
+}

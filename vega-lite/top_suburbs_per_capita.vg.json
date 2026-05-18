@@ -1,18 +1,11 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-    "title": "Cafés per 1,000 People by Suburb",
-
-    "width": "container",
-    "height": 600,
-
-    "projection": {
-        "type": "identity",
-        "reflectY": true
-    },
+    "width": 700,
+    "height": 300,
 
     "data": {
-        "url": "data/LOCALITY_POLYGON_WITH_COUNTS.json",
+        "url": "../data/LOCALITY_POLYGON_WITH_COUNTS.json",
         "format": {
             "type": "json",
             "property": "features"
@@ -24,7 +17,7 @@
             "lookup": "properties.LOCALITY",
             "from": {
                 "data": {
-                    "url": "data/population_by_suburb.csv"
+                    "url": "../data/population_by_suburb.csv"
                 },
                 "key": "Suburb",
                 "fields": ["Population"]
@@ -43,30 +36,49 @@
         {
             "calculate": "(datum.properties.cafe_count / datum.population_value) * 1000",
             "as": "cafes_per_1000"
+        },
+
+        {
+            "window": [
+                {
+                    "op": "rank",
+                    "as": "rank"
+                }
+            ],
+            "sort": [
+                {
+                    "field": "cafes_per_1000",
+                    "order": "descending"
+                }
+            ]
+        },
+
+        {
+            "filter": "datum.rank <= 10"
         }
     ],
 
     "mark": {
-        "type": "geoshape",
-        "stroke": "white",
-        "strokeWidth": 0.4
+        "type": "bar"
     },
 
     "encoding": {
-        "color": {
+        "x": {
             "field": "cafes_per_1000",
             "type": "quantitative",
-
-            "scale": {
-                "scheme": "orangered",
-                "domain": [0, 6]
-            },
-
-            "legend": {
-                "title": "Cafés per 1,000 people"
+            "title": "Cafés per 1,000 People",
+            "axis": { "format": ".2f" },
+            "scale": {"domain": [0, 6]}
+        },
+        "y": {
+            "field": "properties.LOCALITY",
+            "type": "nominal",
+            "title": null,
+            "sort": {
+                "field": "cafes_per_1000",
+                "order": "descending"
             }
         },
-
         "tooltip": [
             {
                 "field": "properties.LOCALITY",

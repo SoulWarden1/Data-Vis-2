@@ -5,7 +5,7 @@
     "height": 300,
 
     "data": {
-        "url": "data/coffee_prices.csv"
+        "url": "../data/coffee_prices.csv"
     },
 
     "encoding": {
