@@ -9,8 +9,8 @@
     },
 
     "mark": {
-        "type": "bar",
-        "size": 15
+        "type": "line",
+        "size": 5
     },
     "encoding": {
         "x": {
@@ -18,7 +18,7 @@
             "type": "quantitative",
             "title": "Year",
             "axis": { "format": "d" },
-            "scale": {"domain": [2001, 2025]}
+            "scale": {"domain": [2002, 2024]}
         },
         "y": {
             "field": "Number of Cafes",

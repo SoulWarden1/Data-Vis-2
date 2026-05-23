@@ -84,18 +84,7 @@
             "field": "properties.name",
             "type": "nominal",
             "title": "Name"
-          },
-          {
-            "field": "properties.website",
-            "type": "nominal",
-            "title": "Website"
-          },
-          {
-            "field": "properties.phone",
-            "type": "nominal",
-            "title": "Phone"
           }
-
         ]
       }
     }

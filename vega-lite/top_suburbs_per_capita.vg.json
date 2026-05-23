@@ -74,7 +74,7 @@
                     "type": "quantitative",
                     "title": "Cafés per 1,000 People",
                     "axis": { "format": ".2f" },
-                    "scale": { "domain": [0, 6] }
+                    "scale": { "domain": [0, 7] }
                 }
             }
         },

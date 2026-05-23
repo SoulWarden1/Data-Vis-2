@@ -18,3 +18,6 @@ vegaEmbed("#top_suburbs_per_capita", vg_6).then(function(result) {}).catch(conso
 
 var vg_7 = "vega-lite/coffee_consumption_per_capita.vg.json";
 vegaEmbed("#coffee_consumption_per_capita", vg_7).then(function(result) {}).catch(console.error);
+
+var vg_8 = "vega-lite/cafe_trips_by_lga.vg.json";
+vegaEmbed("#cafe_trips_by_lga", vg_8).then(function(result) {}).catch(console.error);
