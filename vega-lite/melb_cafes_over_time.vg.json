@@ -12,7 +12,8 @@
         {
             "mark": {
                 "type": "line",
-                "size": 5
+                "size": 5,
+                "color": "#6b4f3b"
             },
 
             "encoding": {

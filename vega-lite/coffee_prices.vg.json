@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-    "width": 420,
+    "width": 500,
     "height": 250,
 
     "data": {
@@ -21,7 +21,8 @@
         {
             "mark": {
                 "type": "bar",
-                "size": 20
+                "size": 20,
+                "color": "#6b4f3b"
             },
             "encoding": {
                 "x": {

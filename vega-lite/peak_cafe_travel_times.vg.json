@@ -25,7 +25,7 @@
             "type": "quantitative",
             "title": "Number of Café Trips",
             "axis": {
-                "titleColor": "#8B7355"
+                "titleColor": "#6b4f3b"
             }
         },
         "tooltip": [
