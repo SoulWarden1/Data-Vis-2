@@ -1,0 +1,45 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+        "url": "../data/peak_cafe_travel_times.csv"
+    },
+    "title": "Peak Travel Times to Cafés by Hour of Day",
+    "width": 700,
+    "height": 400,
+
+    "mark": {
+        "type": "bar",
+        "color": "#8B7355",
+        "size": 15
+    },
+    "encoding": {
+        "x": {
+            "field": "Hour",
+            "type": "quantitative",
+            "title": "Hour of Day",
+            "axis": {
+                "labelAngle": 0
+            }
+        },
+        "y": {
+            "field": "TripCount",
+            "type": "quantitative",
+            "title": "Number of Café Trips",
+            "axis": {
+                "titleColor": "#8B7355"
+            }
+        },
+        "tooltip": [
+            {
+                "field": "Hour",
+                "type": "quantitative",
+                "title": "Hour"
+            },
+            {
+                "field": "TripCount",
+                "type": "quantitative",
+                "title": "Number of Trips"
+            }
+        ]
+    }
+}

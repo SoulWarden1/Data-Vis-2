@@ -1,0 +1,665 @@
+source,target,trip_count,weighted_trips
+Alpine (S),Alpine (S),3,1487.584971803
+Alpine (S),Mitchell (S),3,1487.584971803
+Ararat (RC),Northern Grampians (S),1,156.581853815
+Ballarat (C),Ballarat (C),406,93796.516350741
+Ballarat (C),Brimbank (C),1,764.80064353
+Ballarat (C),Golden Plains (S),3,469.385632686
+Ballarat (C),Hepburn (S),4,1652.134586625
+Ballarat (C),Melbourne (C),3,538.727972306
+Ballarat (C),Moorabool (S),7,2717.648816839
+Ballarat (C),Pyrenees (S),1,109.062505389
+Banyule (C),Banyule (C),182,89080.43405115
+Banyule (C),Boroondara (C),3,1542.844108773
+Banyule (C),Brimbank (C),1,797.787382086
+Banyule (C),Darebin (C),47,24673.249244123
+Banyule (C),Greater Geelong (C),3,2455.552166685
+Banyule (C),Hume (C),1,652.772223378
+Banyule (C),Manningham (C),11,3788.062691491
+Banyule (C),Melbourne (C),11,8219.538424493
+Banyule (C),Merri-bek (C),5,3680.846218984
+Banyule (C),Moonee Valley (C),1,732.211250838
+Banyule (C),Nillumbik (S),19,11358.582237143
+Banyule (C),Port Phillip (C),1,418.291640808
+Banyule (C),Stonnington (C),3,1744.206064442
+Banyule (C),Whitehorse (C),2,1482.6066480609998
+Banyule (C),Whittlesea (C),15,11601.273953238
+Banyule (C),Yarra (C),5,3636.8387350820003
+Bass Coast (S),Bass Coast (S),31,18534.100736979
+Bass Coast (S),Cardinia (S),6,4672.957622702
+Bass Coast (S),Casey (C),3,1757.765118925
+Bass Coast (S),South Gippsland (S),1,580.945695846
+Baw Baw (S),Baw Baw (S),19,12907.430172986
+Baw Baw (S),Cardinia (S),1,422.172077787
+Bayside (C),Bayside (C),162,99807.598076951
+Bayside (C),Boroondara (C),1,793.59607643
+Bayside (C),Brimbank (C),2,409.67447956800004
+Bayside (C),Casey (C),1,496.382332571
+Bayside (C),Glen Eira (C),25,20942.684642854
+Bayside (C),Greater Dandenong (C),1,664.505215624
+Bayside (C),Kingston (C),71,49249.914384388
+Bayside (C),Mansfield (S),1,457.570622917
+Bayside (C),Melbourne (C),5,2994.766041692
+Bayside (C),Monash (C),7,3853.129774426
+Bayside (C),Mornington Peninsula (S),1,923.255279184
+Bayside (C),Port Phillip (C),18,11618.201105279
+Bayside (C),Stonnington (C),6,5192.604253144
+Bayside (C),Surf Coast (S),4,2062.418286205
+Bayside (C),Yarra (C),1,480.312779749
+Boroondara (C),Banyule (C),2,557.874675059
+Boroondara (C),Bayside (C),2,1112.373012349
+Boroondara (C),Boroondara (C),240,179995.385144338
+Boroondara (C),Casey (C),2,402.440675258
+Boroondara (C),Darebin (C),3,1920.360232885
+Boroondara (C),Glen Eira (C),3,2098.181486984
+Boroondara (C),Kingston (C),1,2145.611565422
+Boroondara (C),Manningham (C),25,19946.011714044
+Boroondara (C),Maribyrnong (C),3,1869.2462633250002
+Boroondara (C),Maroondah (C),2,3926.381227869
+Boroondara (C),Melbourne (C),25,21661.782949248
+Boroondara (C),Melton (S),1,350.123930742
+Boroondara (C),Merri-bek (C),4,1871.7653957950001
+Boroondara (C),Monash (C),17,9893.339548281001
+Boroondara (C),Moonee Valley (C),1,664.132721365
+Boroondara (C),Nillumbik (S),2,750.500826997
+Boroondara (C),Port Phillip (C),1,1300.496678326
+Boroondara (C),Stonnington (C),22,14599.808276558999
+Boroondara (C),Whitehorse (C),15,9123.857395014
+Boroondara (C),Whittlesea (C),3,4789.328502018
+Boroondara (C),Yarra (C),20,19284.616239558
+Boroondara (C),Yarra Ranges (S),1,2858.624267755
+Brimbank (C),Banyule (C),1,932.260088336
+Brimbank (C),Brimbank (C),172,169648.217211076
+Brimbank (C),Hobsons Bay (C),6,4335.535112496
+Brimbank (C),Hume (C),2,2428.593149452
+Brimbank (C),Maribyrnong (C),22,21316.923991767
+Brimbank (C),Melbourne (C),5,2798.5802693799997
+Brimbank (C),Melton (S),22,13150.61711744
+Brimbank (C),Merri-bek (C),3,2292.751885823
+Brimbank (C),Moonee Valley (C),6,5493.096793679
+Brimbank (C),Moorabool (S),2,1886.662917586
+Brimbank (C),Port Phillip (C),2,1374.5912779199998
+Brimbank (C),Whittlesea (C),2,1916.506109979
+Brimbank (C),Wyndham (C),8,8924.888709609
+Campaspe (S),Campaspe (S),119,38052.05172257
+Campaspe (S),Greater Bendigo (C),1,751.369892012
+Campaspe (S),Greater Shepparton (C),2,802.820397307
+Campaspe (S),Interstate,2,622.42140477
+Cardinia (S),Baw Baw (S),5,5395.115086785
+Cardinia (S),Cardinia (S),143,114087.552415766
+Cardinia (S),Casey (C),16,13905.452339589
+Cardinia (S),Frankston (C),4,4457.980744763
+Cardinia (S),Greater Dandenong (C),6,4237.050152411
+Cardinia (S),Kingston (C),6,2780.278522665
+Cardinia (S),Knox (C),4,3751.122661127
+Cardinia (S),Melbourne (C),1,593.296949307
+Cardinia (S),Monash (C),2,3547.3548081239996
+Cardinia (S),South Gippsland (S),1,282.484725211
+Cardinia (S),Stonnington (C),1,702.685749824
+Cardinia (S),Wellington (S),1,711.969327384
+Cardinia (S),Yarra (C),1,1538.812770491
+Casey (C),Baw Baw (S),2,1473.6677222019998
+Casey (C),Boroondara (C),1,53.042041274
+Casey (C),Brimbank (C),2,1033.310034099
+Casey (C),Cardinia (S),14,13358.662072926
+Casey (C),Casey (C),437,299010.217580571
+Casey (C),Frankston (C),8,7891.441408513
+Casey (C),Greater Dandenong (C),58,42612.505568992
+Casey (C),Kingston (C),13,12074.189137782
+Casey (C),Knox (C),6,6641.617484923
+Casey (C),Manningham (C),3,1675.443656149
+Casey (C),Melbourne (C),13,7123.933002352
+Casey (C),Melton (S),1,696.78161167
+Casey (C),Monash (C),10,7458.971521104
+Casey (C),Mornington Peninsula (S),12,6518.966363679
+Casey (C),Stonnington (C),3,1271.640612784
+Casey (C),Whitehorse (C),3,3253.121929554
+Casey (C),Whittlesea (C),3,958.790680229
+Casey (C),Yarra (C),1,794.67850827
+Casey (C),Yarra Ranges (S),7,10862.21776643
+Central Goldfields (S),Ballarat (C),2,2126.35740204
+Central Goldfields (S),Central Goldfields (S),48,14864.138358029
+Colac-Otway (S),Colac-Otway (S),6,2847.050122185
+Colac-Otway (S),Surf Coast (S),1,345.59708734
+Corangamite (S),Colac-Otway (S),1,588.930996093
+Corangamite (S),Corangamite (S),1,145.44451844
+Darebin (C),Banyule (C),24,11854.522345057
+Darebin (C),Boroondara (C),1,1214.715792794
+Darebin (C),Darebin (C),267,178830.155354895
+Darebin (C),Greater Geelong (C),1,2852.254232706
+Darebin (C),Hobsons Bay (C),1,275.353624589
+Darebin (C),Hume (C),7,4340.599934474
+Darebin (C),Knox (C),2,755.725030003
+Darebin (C),Manningham (C),7,2783.504433748
+Darebin (C),Maroondah (C),2,1086.150009334
+Darebin (C),Melbourne (C),11,11685.918340056
+Darebin (C),Merri-bek (C),27,19434.607193818
+Darebin (C),Moonee Valley (C),2,997.6847924780001
+Darebin (C),Surf Coast (S),2,1239.023327573
+Darebin (C),Whitehorse (C),2,959.359312715
+Darebin (C),Whittlesea (C),39,31370.421306076
+Darebin (C),Yarra (C),17,11438.999870248
+East Gippsland (S),East Gippsland (S),5,2276.074281772
+Frankston (C),Cardinia (S),1,741.854045687
+Frankston (C),Casey (C),11,10982.276180683
+Frankston (C),Frankston (C),208,188308.124890461
+Frankston (C),Greater Dandenong (C),4,4764.675800346
+Frankston (C),Hume (C),2,985.622600843
+Frankston (C),Kingston (C),27,25988.982352652
+Frankston (C),Knox (C),1,439.050046267
+Frankston (C),Maribyrnong (C),4,3880.191883589
+Frankston (C),Melbourne (C),2,3403.578785211
+Frankston (C),Monash (C),3,1096.461807304
+Frankston (C),Mornington Peninsula (S),37,31298.860258087
+Frankston (C),Stonnington (C),2,1422.1930679779998
+Frankston (C),Whitehorse (C),2,1515.8635553919999
+Glen Eira (C),Bayside (C),22,18770.117767621
+Glen Eira (C),Boroondara (C),10,4098.56192623
+Glen Eira (C),Brimbank (C),1,93.082498545
+Glen Eira (C),Cardinia (S),2,1093.785578478
+Glen Eira (C),Glen Eira (C),175,128407.874055786
+Glen Eira (C),Greater Dandenong (C),3,1948.520304337
+Glen Eira (C),Hobsons Bay (C),4,4154.782274679001
+Glen Eira (C),Kingston (C),36,23310.425156467998
+Glen Eira (C),Knox (C),1,564.71449765
+Glen Eira (C),Maroondah (C),3,1900.852238362
+Glen Eira (C),Melbourne (C),13,11632.615903802
+Glen Eira (C),Merri-bek (C),2,1240.894020857
+Glen Eira (C),Monash (C),25,18907.534529647
+Glen Eira (C),Mornington Peninsula (S),3,1850.5095547740002
+Glen Eira (C),Port Phillip (C),12,6399.878762236
+Glen Eira (C),Stonnington (C),56,37633.487111482
+Glen Eira (C),Wangaratta (RC),3,2650.823067271
+Glen Eira (C),Whitehorse (C),4,2390.181524857
+Glen Eira (C),Yarra (C),2,1551.806857122
+Glen Eira (C),Yarra Ranges (S),1,569.778746265
+Golden Plains (S),Ballarat (C),6,1235.092802462
+Golden Plains (S),Golden Plains (S),3,1472.350145373
+Golden Plains (S),Greater Geelong (C),9,14043.794453949
+Greater Bendigo (C),Greater Bendigo (C),363,84163.431760483
+Greater Bendigo (C),Hepburn (S),2,805.257685028
+Greater Bendigo (C),Melbourne (C),7,962.0069233300001
+Greater Bendigo (C),Merri-bek (C),1,612.133034056
+Greater Bendigo (C),Mitchell (S),4,1301.483460644
+Greater Bendigo (C),Mount Alexander (S),2,1121.4756440810002
+Greater Dandenong (C),Cardinia (S),3,1234.196857915
+Greater Dandenong (C),Casey (C),23,17980.065193485
+Greater Dandenong (C),Frankston (C),6,6693.204996876
+Greater Dandenong (C),Glen Eira (C),1,924.06663813
+Greater Dandenong (C),Greater Dandenong (C),192,182729.9972372
+Greater Dandenong (C),Hume (C),1,1083.542093034
+Greater Dandenong (C),Kingston (C),15,14156.409261446
+Greater Dandenong (C),Knox (C),1,582.830390869
+Greater Dandenong (C),Melbourne (C),3,2294.081741757
+Greater Dandenong (C),Monash (C),37,32026.049556161
+Greater Dandenong (C),Mornington Peninsula (S),2,1070.270289787
+Greater Dandenong (C),Stonnington (C),5,3135.019662848
+Greater Dandenong (C),Whitehorse (C),5,4471.296919495
+Greater Geelong (C),Greater Geelong (C),421,210623.710543135
+Greater Geelong (C),Melbourne (C),3,2168.73169125
+Greater Geelong (C),Nillumbik (S),1,217.946098062
+Greater Geelong (C),Queenscliffe (B),5,1497.452211931
+Greater Geelong (C),Surf Coast (S),4,1124.3220735319999
+Greater Geelong (C),Wyndham (C),1,501.720674513
+Greater Geelong (C),Yarra (C),2,1272.611952191
+Greater Shepparton (C),Greater Shepparton (C),246,36247.474919629
+Greater Shepparton (C),Mitchell (S),2,188.84160411
+Greater Shepparton (C),Strathbogie (S),2,513.763723548
+Greater Shepparton (C),Whittlesea (C),2,420.363134252
+Hepburn (S),Ballarat (C),6,1885.458737043
+Hepburn (S),Hepburn (S),28,11517.378172938
+Hepburn (S),Hume (C),1,1054.547922807
+Hepburn (S),Mount Alexander (S),1,144.151821489
+Hepburn (S),Yarra (C),1,438.504825377
+Hobsons Bay (C),Brimbank (C),3,967.264575771
+Hobsons Bay (C),Hobsons Bay (C),150,104943.770657649
+Hobsons Bay (C),Hume (C),1,349.312248547
+Hobsons Bay (C),Manningham (C),1,448.926815729
+Hobsons Bay (C),Maribyrnong (C),10,5060.826795087
+Hobsons Bay (C),Melbourne (C),15,8111.600941763
+Hobsons Bay (C),Melton (S),3,1308.965692202
+Hobsons Bay (C),Merri-bek (C),3,926.882138872
+Hobsons Bay (C),Port Phillip (C),2,598.9276370160001
+Hobsons Bay (C),Stonnington (C),2,2505.879911956
+Hobsons Bay (C),Wyndham (C),29,24716.392233314
+Hobsons Bay (C),Yarra (C),1,474.716211411
+Horsham (RC),Horsham (RC),2,73.221985418
+Hume (C),Brimbank (C),9,10423.142612497999
+Hume (C),Darebin (C),6,3365.166661915
+Hume (C),Hume (C),247,290151.575907178
+Hume (C),Kingston (C),1,713.892512354
+Hume (C),Knox (C),1,241.535801897
+Hume (C),Macedon Ranges (S),3,2808.6871616400003
+Hume (C),Maribyrnong (C),4,3470.503379521
+Hume (C),Melbourne (C),2,1749.0165788929999
+Hume (C),Melton (S),2,896.028389914
+Hume (C),Merri-bek (C),8,5062.146560274
+Hume (C),Mitchell (S),1,232.439717592
+Hume (C),Moonee Valley (C),14,12291.838832447
+Hume (C),Nillumbik (S),1,550.239161053
+Hume (C),Port Phillip (C),1,801.259093579
+Hume (C),Strathbogie (S),1,117.393673639
+Hume (C),Whitehorse (C),2,1335.789785873
+Hume (C),Whittlesea (C),20,17575.170621031
+Hume (C),Wyndham (C),7,7273.693638665
+Interstate,Ballarat (C),2,833.0551654440001
+Interstate,Campaspe (S),5,2949.716254062
+Interstate,Hobsons Bay (C),1,302.11541704
+Interstate,Kingston (C),1,879.345492904
+Interstate,Melbourne (C),1,378.969043699
+Interstate,Mitchell (S),4,3394.843832263
+Interstate,Moira (S),2,361.57468087300003
+Interstate,Mornington Peninsula (S),6,8854.763899569
+Interstate,Wangaratta (RC),2,1950.537315317
+Kingston (C),Bayside (C),11,8739.646244205
+Kingston (C),Boroondara (C),1,2145.611565422
+Kingston (C),Casey (C),4,4978.495775206
+Kingston (C),Darebin (C),1,346.61971003
+Kingston (C),Frankston (C),7,7815.616801106
+Kingston (C),Glen Eira (C),17,15303.698501904
+Kingston (C),Greater Dandenong (C),29,26352.674970028
+Kingston (C),Kingston (C),277,211857.181106906
+Kingston (C),Knox (C),3,1818.684779351
+Kingston (C),Manningham (C),1,448.100440791
+Kingston (C),Melbourne (C),6,2703.745741218
+Kingston (C),Merri-bek (C),3,1691.547846536
+Kingston (C),Monash (C),12,10344.73533457
+Kingston (C),Mornington Peninsula (S),4,3179.0635173230003
+Kingston (C),Port Phillip (C),1,330.463819361
+Kingston (C),Stonnington (C),4,2326.710233175
+Kingston (C),Whitehorse (C),1,347.483500793
+Kingston (C),Wyndham (C),1,613.232780708
+Kingston (C),Yarra (C),2,3005.316749058
+Kingston (C),Yarra Ranges (S),6,5255.421332649999
+Knox (C),Casey (C),10,7700.961572869
+Knox (C),Darebin (C),1,514.687644964
+Knox (C),Greater Dandenong (C),9,6322.533139469
+Knox (C),Kingston (C),2,1315.267543937
+Knox (C),Knox (C),280,175895.5583869
+Knox (C),Maroondah (C),16,10082.248953376
+Knox (C),Melbourne (C),9,6492.0826114
+Knox (C),Monash (C),14,8502.803968151
+Knox (C),Mornington Peninsula (S),2,732.282084355
+Knox (C),Stonnington (C),3,1063.219835471
+Knox (C),Strathbogie (S),1,925.955866807
+Knox (C),Whitehorse (C),19,13678.120761344
+Knox (C),Yarra Ranges (S),13,6619.514072634
+Loddon (S),Loddon (S),3,972.1100545290001
+Macedon Ranges (S),Brimbank (C),2,1646.067999139
+Macedon Ranges (S),Darebin (C),3,1784.085542701
+Macedon Ranges (S),Greater Bendigo (C),4,931.845139731
+Macedon Ranges (S),Hume (C),4,2682.0087979279997
+Macedon Ranges (S),Macedon Ranges (S),104,45209.577123888
+Macedon Ranges (S),Maribyrnong (C),2,659.703127907
+Macedon Ranges (S),Melbourne (C),1,100.805373507
+Macedon Ranges (S),Melton (S),3,2141.129637027
+Macedon Ranges (S),Monash (C),1,2208.581648312
+Macedon Ranges (S),Mount Alexander (S),2,500.94006686299997
+Manningham (C),Banyule (C),4,3741.7066800800003
+Manningham (C),Boroondara (C),10,8753.463503765
+Manningham (C),Darebin (C),6,1887.975692737
+Manningham (C),Frankston (C),5,5300.590889498
+Manningham (C),Hume (C),1,607.526208542
+Manningham (C),Knox (C),3,1444.872241099
+Manningham (C),Manningham (C),195,154410.727177988
+Manningham (C),Maribyrnong (C),1,1200.632140721
+Manningham (C),Maroondah (C),28,11997.607742482
+Manningham (C),Melbourne (C),9,9655.769814622
+Manningham (C),Monash (C),1,726.949727657
+Manningham (C),Nillumbik (S),3,2679.874064353
+Manningham (C),Port Phillip (C),2,1427.6822285409999
+Manningham (C),Whitehorse (C),34,33539.225756035
+Manningham (C),Whittlesea (C),1,562.63716041
+Manningham (C),Yarra (C),2,448.488749532
+Manningham (C),Yarra Ranges (S),8,4770.245600003
+Mansfield (S),Mansfield (S),4,2430.9701186439997
+Maribyrnong (C),Brimbank (C),28,24855.914636399
+Maribyrnong (C),Darebin (C),4,3753.066869266
+Maribyrnong (C),Greater Geelong (C),1,966.768018004
+Maribyrnong (C),Hobsons Bay (C),5,4265.512780995
+Maribyrnong (C),Maribyrnong (C),118,82160.10472144099
+Maribyrnong (C),Melbourne (C),12,7731.216727459
+Maribyrnong (C),Melton (S),3,1317.890131529
+Maribyrnong (C),Merri-bek (C),5,5235.852374511
+Maribyrnong (C),Monash (C),4,3077.968460612
+Maribyrnong (C),Moonee Valley (C),10,4391.460896351
+Maribyrnong (C),Moorabool (S),2,1360.5255213359999
+Maribyrnong (C),Port Phillip (C),1,582.490959729
+Maribyrnong (C),Whitehorse (C),2,2323.37520957
+Maribyrnong (C),Wyndham (C),1,1376.232808076
+Maribyrnong (C),Yarra (C),1,740.578530603
+Maroondah (C),Boroondara (C),1,362.648141502
+Maroondah (C),Brimbank (C),2,1201.483867489
+Maroondah (C),Cardinia (S),1,408.0718173
+Maroondah (C),Darebin (C),2,632.7622529079999
+Maroondah (C),Glen Eira (C),2,1335.789785873
+Maroondah (C),Kingston (C),1,483.782653661
+Maroondah (C),Knox (C),35,27658.387355099
+Maroondah (C),Manningham (C),6,4289.256250282
+Maroondah (C),Maroondah (C),171,115273.682049095
+Maroondah (C),Melbourne (C),1,378.969043699
+Maroondah (C),Monash (C),4,3106.304306898
+Maroondah (C),Whitehorse (C),14,6615.63257246
+Maroondah (C),Wyndham (C),2,1161.9409796720001
+Maroondah (C),Yarra (C),1,296.608225649
+Maroondah (C),Yarra Ranges (S),24,15981.892638133
+Melbourne (C),Banyule (C),2,1616.7946351629998
+Melbourne (C),Bayside (C),2,1200.859987456
+Melbourne (C),Boroondara (C),12,8609.837252631
+Melbourne (C),Brimbank (C),3,2709.39414644
+Melbourne (C),Casey (C),4,1621.896240419
+Melbourne (C),Darebin (C),6,3826.5348768129998
+Melbourne (C),Frankston (C),1,846.685430332
+Melbourne (C),Glen Eira (C),8,3055.354755319
+Melbourne (C),Greater Dandenong (C),2,2495.621053664
+Melbourne (C),Greater Geelong (C),3,2022.401818292
+Melbourne (C),Hobsons Bay (C),3,1406.2918595649999
+Melbourne (C),Hume (C),3,3031.050282052
+Melbourne (C),Kingston (C),6,5186.295135178
+Melbourne (C),Knox (C),2,922.1812082250001
+Melbourne (C),Manningham (C),2,1186.25242142
+Melbourne (C),Maribyrnong (C),15,25040.02690199
+Melbourne (C),Maroondah (C),3,1717.209897052
+Melbourne (C),Melbourne (C),459,481023.628347389
+Melbourne (C),Melton (S),1,450.652670649
+Melbourne (C),Merri-bek (C),18,20222.860683186
+Melbourne (C),Mitchell (S),3,2986.439327341
+Melbourne (C),Monash (C),9,4717.9289653939995
+Melbourne (C),Moonee Valley (C),21,30580.083774221
+Melbourne (C),Moorabool (S),1,320.045884886
+Melbourne (C),Port Phillip (C),21,15164.99443375
+Melbourne (C),Stonnington (C),9,9620.040543703
+Melbourne (C),Whitehorse (C),1,461.709197963
+Melbourne (C),Whittlesea (C),2,1789.8795432759998
+Melbourne (C),Wyndham (C),8,4915.043150376
+Melbourne (C),Yarra (C),27,34405.003622218
+Melbourne (C),Yarra Ranges (S),1,502.74665861
+Melton (S),Brimbank (C),36,33685.332939974
+Melton (S),Buloke (S),2,2901.101186304
+Melton (S),Hobsons Bay (C),2,2632.4513050590003
+Melton (S),Hume (C),7,8181.993829009
+Melton (S),Kingston (C),1,899.187937121
+Melton (S),Macedon Ranges (S),1,599.89791832
+Melton (S),Maribyrnong (C),6,2737.992382112
+Melton (S),Melbourne (C),2,2504.02501501
+Melton (S),Melton (S),142,121574.83963980801
+Melton (S),Moonee Valley (C),3,776.865252005
+Melton (S),Moorabool (S),3,3270.624370846
+Melton (S),Wyndham (C),12,8945.450566424
+Melton (S),Yarra (C),1,1046.545601115
+Merri-bek (C),Banyule (C),3,1866.0857173519998
+Merri-bek (C),Bayside (C),5,5918.699695878
+Merri-bek (C),Boroondara (C),1,683.182705385
+Merri-bek (C),Brimbank (C),2,1833.136046264
+Merri-bek (C),Cardinia (S),1,402.584955962
+Merri-bek (C),Casey (C),1,350.530794647
+Merri-bek (C),Darebin (C),16,12581.410712036
+Merri-bek (C),Glen Eira (C),3,1845.8275125199998
+Merri-bek (C),Greater Geelong (C),1,556.84339545
+Merri-bek (C),Hume (C),15,13480.228093892
+Merri-bek (C),Macedon Ranges (S),1,1614.69002368
+Merri-bek (C),Manningham (C),1,359.877929152
+Merri-bek (C),Maribyrnong (C),3,972.884977703
+Merri-bek (C),Melbourne (C),33,19181.589602096
+Merri-bek (C),Merri-bek (C),249,181464.952766371
+Merri-bek (C),Moonee Valley (C),20,15829.057550379
+Merri-bek (C),Port Phillip (C),5,2015.473649482
+Merri-bek (C),Whitehorse (C),1,430.862844843
+Merri-bek (C),Whittlesea (C),2,1314.905507
+Merri-bek (C),Yarra (C),19,14517.795246984
+Merri-bek (C),Yarra Ranges (S),1,570.415460807
+Mildura (RC),Mildura (RC),9,1752.979015798
+Mitchell (S),Boroondara (C),1,97.922826539
+Mitchell (S),Cardinia (S),2,2112.605741505
+Mitchell (S),Greater Shepparton (C),1,90.918777571
+Mitchell (S),Hume (C),3,1331.340353545
+Mitchell (S),Mitchell (S),30,15082.00580655
+Mitchell (S),Moonee Valley (C),2,3522.051277744
+Moira (S),Greater Shepparton (C),2,604.793654867
+Moira (S),Indigo (S),2,550.8123371730001
+Moira (S),Interstate,5,921.367342826
+Moira (S),Moira (S),61,14235.808191694001
+Monash (C),Bayside (C),1,358.663433953
+Monash (C),Boroondara (C),8,6536.948822302
+Monash (C),Cardinia (S),5,6095.361159157999
+Monash (C),Casey (C),15,13772.281702276
+Monash (C),Darebin (C),1,1001.619965485
+Monash (C),Glen Eira (C),13,6669.684407565
+Monash (C),Greater Dandenong (C),28,22759.602860393
+Monash (C),Kingston (C),13,7703.106267942
+Monash (C),Knox (C),24,14529.255901952
+Monash (C),Manningham (C),6,2494.753383874
+Monash (C),Maribyrnong (C),1,503.244450567
+Monash (C),Maroondah (C),1,207.242321307
+Monash (C),Melbourne (C),13,9736.638166031
+Monash (C),Merri-bek (C),1,682.63947
+Monash (C),Monash (C),250,159566.291395718
+Monash (C),Nillumbik (S),2,885.1305776439999
+Monash (C),Port Phillip (C),1,1009.583683632
+Monash (C),Stonnington (C),15,9364.967355302
+Monash (C),Whitehorse (C),26,20228.959143949
+Monash (C),Wyndham (C),2,1705.254994343
+Monash (C),Yarra (C),2,2058.70863391
+Monash (C),Yarra Ranges (S),3,2324.6455698620002
+Moonee Valley (C),Bayside (C),2,1293.90425123
+Moonee Valley (C),Brimbank (C),10,8346.407772602
+Moonee Valley (C),Casey (C),1,581.82491728
+Moonee Valley (C),Darebin (C),3,1509.027106883
+Moonee Valley (C),Greater Geelong (C),1,456.466963161
+Moonee Valley (C),Hobsons Bay (C),1,962.144110888
+Moonee Valley (C),Hume (C),4,2760.353144913
+Moonee Valley (C),Maribyrnong (C),17,9231.32646245
+Moonee Valley (C),Melbourne (C),21,12475.959422799
+Moonee Valley (C),Merri-bek (C),5,5332.6062272750005
+Moonee Valley (C),Moonee Valley (C),210,179730.437736595
+Moonee Valley (C),Port Phillip (C),4,2343.8919305080003
+Moonee Valley (C),Whitehorse (C),1,542.368779274
+Moonee Valley (C),Whittlesea (C),2,2944.974613259
+Moonee Valley (C),Wyndham (C),1,723.590240501
+Moonee Valley (C),Yarra (C),1,984.262940687
+Moorabool (S),Ballarat (C),5,2075.817316529
+Moorabool (S),Brimbank (C),4,2567.758955165
+Moorabool (S),Macedon Ranges (S),2,2040.9077942440001
+Moorabool (S),Maribyrnong (C),1,2001.746717846
+Moorabool (S),Melton (S),12,12024.336100918
+Moorabool (S),Moorabool (S),68,46452.392234113
+Moorabool (S),Wyndham (C),1,595.133718421
+Mornington Peninsula (S),Bayside (C),1,923.255279184
+Mornington Peninsula (S),Cardinia (S),2,1183.030150128
+Mornington Peninsula (S),Casey (C),4,2052.402048625
+Mornington Peninsula (S),Frankston (C),36,28502.675939032
+Mornington Peninsula (S),Glen Eira (C),1,622.374526454
+Mornington Peninsula (S),Greater Dandenong (C),2,2155.6077714129997
+Mornington Peninsula (S),Interstate,2,2879.580880279
+Mornington Peninsula (S),Kingston (C),4,1914.381557579
+Mornington Peninsula (S),Manningham (C),2,1653.6889455199998
+Mornington Peninsula (S),Maroondah (C),2,793.508606866
+Mornington Peninsula (S),Monash (C),2,2837.0729389730004
+Mornington Peninsula (S),Mornington Peninsula (S),483,364803.118035513
+Mornington Peninsula (S),Yarra (C),2,2879.580880279
+Mount Alexander (S),Ballarat (C),1,303.08059266
+Mount Alexander (S),Central Goldfields (S),2,177.401144299
+Mount Alexander (S),Greater Bendigo (C),6,1285.375587557
+Mount Alexander (S),Hume (C),1,193.408181561
+Mount Alexander (S),Macedon Ranges (S),3,516.121889686
+Mount Alexander (S),Melton (S),1,457.569884716
+Mount Alexander (S),Mount Alexander (S),87,33980.255539156
+Moyne (S),Greater Bendigo (C),2,218.847058355
+Moyne (S),Moyne (S),2,218.847058355
+Murrindindi (S),Manningham (C),1,148.18151039
+Murrindindi (S),Murrindindi (S),4,3781.6093011970006
+Murrindindi (S),Whittlesea (C),1,3421.010484315
+Nillumbik (S),Banyule (C),19,13058.011398404
+Nillumbik (S),Boroondara (C),1,1114.30379589
+Nillumbik (S),Darebin (C),3,1629.559090169
+Nillumbik (S),Knox (C),1,1325.46686449
+Nillumbik (S),Macedon Ranges (S),1,645.997682223
+Nillumbik (S),Manningham (C),11,8501.338868065
+Nillumbik (S),Merri-bek (C),2,998.2331026950001
+Nillumbik (S),Nillumbik (S),60,48314.726919308
+Nillumbik (S),Port Phillip (C),1,865.042294306
+Nillumbik (S),Whitehorse (C),5,6305.639078970999
+Nillumbik (S),Whittlesea (C),13,9181.193955015
+Northern Grampians (S),Northern Grampians (S),3,1205.147628533
+Port Phillip (C),Bayside (C),2,1679.658946094
+Port Phillip (C),Boroondara (C),1,530.823806503
+Port Phillip (C),Cardinia (S),1,616.366428926
+Port Phillip (C),Casey (C),1,571.280171119
+Port Phillip (C),Darebin (C),4,3353.545265371
+Port Phillip (C),Glen Eira (C),15,13312.666006825
+Port Phillip (C),Greater Dandenong (C),2,1644.235598744
+Port Phillip (C),Hobsons Bay (C),3,1598.436005496
+Port Phillip (C),Kingston (C),4,2816.508109194
+Port Phillip (C),Knox (C),1,223.124124543
+Port Phillip (C),Macedon Ranges (S),2,1630.660807874
+Port Phillip (C),Manningham (C),2,1427.6822285409999
+Port Phillip (C),Maribyrnong (C),3,1063.534707048
+Port Phillip (C),Melbourne (C),32,30448.372207347
+Port Phillip (C),Merri-bek (C),2,607.964276178
+Port Phillip (C),Monash (C),2,2147.441465559
+Port Phillip (C),Moonee Valley (C),1,351.515365378
+Port Phillip (C),Port Phillip (C),212,160934.759713055
+Port Phillip (C),Stonnington (C),12,7837.865879439
+Port Phillip (C),Whitehorse (C),1,713.377030976
+Port Phillip (C),Whittlesea (C),1,2319.649320596
+Port Phillip (C),Yarra (C),6,3155.354833452
+Pyrenees (S),Greater Bendigo (C),1,199.871371963
+Queenscliffe (B),Greater Geelong (C),19,6423.8877734239995
+Queenscliffe (B),Mornington Peninsula (S),2,829.9934958169999
+Queenscliffe (B),Queenscliffe (B),19,6796.858063225
+South Gippsland (S),Bass Coast (S),2,1109.630572553
+South Gippsland (S),South Gippsland (S),29,11980.086707604
+Stonnington (C),Bayside (C),2,760.007966635
+Stonnington (C),Boroondara (C),16,12092.101113004
+Stonnington (C),Darebin (C),3,1187.731717029
+Stonnington (C),Glen Eira (C),15,7949.114855951
+Stonnington (C),Greater Dandenong (C),7,5122.937158653
+Stonnington (C),Kingston (C),2,1401.891739536
+Stonnington (C),Knox (C),3,1623.865784214
+Stonnington (C),Manningham (C),4,7935.758718047
+Stonnington (C),Maribyrnong (C),1,538.372733312
+Stonnington (C),Melbourne (C),16,17729.087794037998
+Stonnington (C),Monash (C),23,11282.315623807
+Stonnington (C),Mornington Peninsula (S),2,695.732190359
+Stonnington (C),Port Phillip (C),6,5053.253531565
+Stonnington (C),Stonnington (C),189,136658.978581564
+Stonnington (C),Whitehorse (C),4,2261.412633847
+Stonnington (C),Yarra (C),6,5246.1036569749995
+Strathbogie (S),Greater Bendigo (C),2,348.979686898
+Strathbogie (S),Stonnington (C),1,316.88422034
+Strathbogie (S),Strathbogie (S),6,962.645047624
+Surf Coast (S),Greater Geelong (C),10,3743.506891736
+Surf Coast (S),Surf Coast (S),45,22093.281681566
+Swan Hill (RC),Loddon (S),1,464.696039704
+Swan Hill (RC),Swan Hill (RC),2,387.868098089
+Unincorporated Victoria,Alpine (S),1,2557.154503596
+Wangaratta (RC),Benalla (RC),3,2650.823067271
+Wangaratta (RC),Interstate,2,1064.027545995
+Wangaratta (RC),Mitchell (S),1,494.771084857
+Wangaratta (RC),Strathbogie (S),1,97.083678403
+Wangaratta (RC),Wangaratta (RC),2,792.308193946
+Warrnambool (C),Warrnambool (C),3,853.733941134
+Wellington (S),Wellington (S),2,1460.115294469
+Whitehorse (C),Banyule (C),3,2555.051570923
+Whitehorse (C),Boroondara (C),43,26737.811051927998
+Whitehorse (C),Cardinia (S),1,690.907503813
+Whitehorse (C),Casey (C),2,1328.266850896
+Whitehorse (C),Darebin (C),1,402.321634091
+Whitehorse (C),Frankston (C),1,621.895417932
+Whitehorse (C),Glen Eira (C),2,765.340564734
+Whitehorse (C),Greater Bendigo (C),1,294.39202866
+Whitehorse (C),Greater Dandenong (C),10,5008.3965662909995
+Whitehorse (C),Greater Geelong (C),1,945.003787577
+Whitehorse (C),Greater Shepparton (C),2,2343.6284626379997
+Whitehorse (C),Kingston (C),5,3247.879735491
+Whitehorse (C),Knox (C),26,16456.814872888
+Whitehorse (C),Manningham (C),34,27573.899451077
+Whitehorse (C),Maribyrnong (C),5,4544.43052118
+Whitehorse (C),Maroondah (C),26,15753.811204951
+Whitehorse (C),Melbourne (C),8,3918.295426098
+Whitehorse (C),Merri-bek (C),1,1271.692790274
+Whitehorse (C),Monash (C),18,12516.516618781
+Whitehorse (C),Moonee Valley (C),1,533.396692002
+Whitehorse (C),Mornington Peninsula (S),1,673.78397017
+Whitehorse (C),Nillumbik (S),1,934.737392871
+Whitehorse (C),Stonnington (C),1,538.372733312
+Whitehorse (C),Whitehorse (C),238,147752.85632919
+Whitehorse (C),Whittlesea (C),1,347.483500793
+Whitehorse (C),Yarra (C),3,3852.676221076
+Whitehorse (C),Yarra Ranges (S),4,4658.05980689
+Whittlesea (C),Banyule (C),7,6214.253665468001
+Whittlesea (C),Brimbank (C),3,1973.4397894190001
+Whittlesea (C),Darebin (C),25,17250.64521475
+Whittlesea (C),Hume (C),14,9482.681325467
+Whittlesea (C),Kingston (C),1,347.483500793
+Whittlesea (C),Macedon Ranges (S),1,219.581728701
+Whittlesea (C),Manningham (C),2,1201.617020189
+Whittlesea (C),Maribyrnong (C),1,1035.995670839
+Whittlesea (C),Maroondah (C),2,2088.853229
+Whittlesea (C),Melbourne (C),5,5446.485281487
+Whittlesea (C),Melton (S),4,2055.6704776
+Whittlesea (C),Merri-bek (C),2,1581.018567721
+Whittlesea (C),Monash (C),3,958.790680229
+Whittlesea (C),Moonee Valley (C),5,4491.028187955
+Whittlesea (C),Nillumbik (S),4,4785.734617161001
+Whittlesea (C),Port Phillip (C),1,787.666986691
+Whittlesea (C),Stonnington (C),1,684.685431405
+Whittlesea (C),Surf Coast (S),1,1125.858181581
+Whittlesea (C),Whittlesea (C),297,251753.595001933
+Wodonga (RC),Wodonga (RC),1,189.51649229
+Wyndham (C),Brimbank (C),7,4581.765984345
+Wyndham (C),Greater Dandenong (C),3,1399.215860579
+Wyndham (C),Greater Geelong (C),4,2754.759280171
+Wyndham (C),Hobsons Bay (C),21,17146.273949986
+Wyndham (C),Hume (C),3,3344.4209947
+Wyndham (C),Latrobe (C),1,355.872264413
+Wyndham (C),Maribyrnong (C),8,6462.098629100001
+Wyndham (C),Melbourne (C),14,8609.605781626
+Wyndham (C),Melton (S),3,3492.3465234759997
+Wyndham (C),Merri-bek (C),1,579.080932505
+Wyndham (C),Whittlesea (C),2,1176.387110396
+Wyndham (C),Wyndham (C),423,306681.498115827
+Wyndham (C),Yarra (C),9,4130.675624177
+Yarra (C),Banyule (C),6,2732.765420544
+Yarra (C),Bayside (C),1,324.883269921
+Yarra (C),Boroondara (C),8,9781.623502707
+Yarra (C),Brimbank (C),3,1484.310759529
+Yarra (C),Cardinia (S),1,1040.828281125
+Yarra (C),Casey (C),1,1012.283941335
+Yarra (C),Darebin (C),21,16037.625809134
+Yarra (C),Frankston (C),1,784.547234463
+Yarra (C),Glen Eira (C),2,2122.902944579
+Yarra (C),Greater Bendigo (C),1,396.437892948
+Yarra (C),Kingston (C),2,1258.3642475440001
+Yarra (C),Macedon Ranges (S),1,286.301856224
+Yarra (C),Manningham (C),1,382.905001388
+Yarra (C),Maribyrnong (C),2,1168.573451994
+Yarra (C),Melbourne (C),25,16389.046345475
+Yarra (C),Merri-bek (C),8,5733.978922811
+Yarra (C),Monash (C),1,1552.744085998
+Yarra (C),Moonee Valley (C),6,3519.398488387
+Yarra (C),Nillumbik (S),4,3243.032614935
+Yarra (C),Port Phillip (C),4,2345.199053251
+Yarra (C),Stonnington (C),8,5526.771025116
+Yarra (C),Whitehorse (C),3,1650.9815909210001
+Yarra (C),Whittlesea (C),1,825.483532768
+Yarra (C),Wyndham (C),1,527.978358167
+Yarra (C),Yarra (C),195,166580.067532313
+Yarra Ranges (S),Boroondara (C),2,849.974842138
+Yarra Ranges (S),Cardinia (S),4,2493.58735457
+Yarra Ranges (S),Casey (C),2,2117.919075117
+Yarra Ranges (S),Frankston (C),3,5505.455565638
+Yarra Ranges (S),Glen Eira (C),2,1296.273985603
+Yarra Ranges (S),Greater Dandenong (C),3,3812.241160117
+Yarra Ranges (S),Hobsons Bay (C),1,1527.722479291
+Yarra Ranges (S),Kingston (C),1,870.319246892
+Yarra Ranges (S),Knox (C),32,17651.863657273
+Yarra Ranges (S),Manningham (C),2,726.580887669
+Yarra Ranges (S),Mansfield (S),1,656.134700532
+Yarra Ranges (S),Maroondah (C),35,24513.551242717
+Yarra Ranges (S),Melbourne (C),1,690.73741185
+Yarra Ranges (S),Monash (C),1,467.581083325
+Yarra Ranges (S),Stonnington (C),2,1403.402377376
+Yarra Ranges (S),Wangaratta (RC),2,1064.027545995
+Yarra Ranges (S),Whitehorse (C),2,1463.854776918
+Yarra Ranges (S),Yarra Ranges (S),218,170555.796556514

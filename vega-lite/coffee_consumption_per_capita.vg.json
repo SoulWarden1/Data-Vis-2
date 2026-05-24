@@ -14,19 +14,7 @@
             "type": "nominal",
             "title": null,
             "sort": { "field": "Consumption", "op": "mean", "order": "descending" }
-        },
-        "tooltip": [
-                {
-                    "field": "Location",
-                    "type": "nominal",
-                    "title": "Location"
-                },
-                {
-                    "field": "Consumption",
-                    "type": "quantitative",
-                    "title": "Consumption (kg per capita)"
-                }
-            ]
+        }
     },
 
     "layer": [

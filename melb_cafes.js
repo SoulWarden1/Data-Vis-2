@@ -24,3 +24,9 @@ vegaEmbed("#cafe_trips_lga_map", vg_8).then(function(result) {}).catch(console.e
 
 var vg_9 = "vega-lite/cafe_trips_by_lga.vg.json";
 vegaEmbed("#cafe_trips_by_lga", vg_9).then(function(result) {}).catch(console.error);
+
+var vg_10 = "vega-lite/population_vs_cafes.vg.json";
+vegaEmbed("#population_vs_cafes", vg_10).then(function(result) {}).catch(console.error);
+
+var vg_11 = "vega-lite/peak_cafe_travel_times.vg.json";
+vegaEmbed("#peak_cafe_travel_times", vg_11).then(function(result) {}).catch(console.error);

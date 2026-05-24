@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 500,
   "height": 600,
-  "data": { 
+  "data": {
     "url": "../data/cafe_trips_by_lga.csv"
   },
   "title": "Average Distance to Cafés by LGA",
@@ -24,6 +24,25 @@
       "field": "triptime",
       "type": "quantitative",
       "title": "Average Trip Time (min)"
-    }
+    },
+    "tooltip": [
+      {
+        "field": "origlga",
+        "type": "nominal",
+        "title": "LGA"
+      },
+      {
+        "field": "cumdist",
+        "type": "quantitative",
+        "title": "Avg Distance to Café (km)",
+        "format": ".2f"
+      },
+      {
+        "field": "triptime",
+        "type": "quantitative",
+        "title": "Avg Trip Time (min)",
+        "format": ".2f"
+      }
+    ]
   }
 }

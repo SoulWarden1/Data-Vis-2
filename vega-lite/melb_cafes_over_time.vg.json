@@ -8,35 +8,129 @@
         "url": "data/cafes_by_year.csv"
     },
 
-    "mark": {
-        "type": "line",
-        "size": 5
-    },
-    "encoding": {
-        "x": {
-            "field": "census_year",
-            "type": "quantitative",
-            "title": "Year",
-            "axis": { "format": "d" },
-            "scale": {"domain": [2002, 2024]}
-        },
-        "y": {
-            "field": "Number of Cafes",
-            "type": "quantitative",
-            "title": null,
-            "scale": {"domain": [0, 2100]}
-        },
-        "tooltip": [
-            {
-                "field": "census_year",
-                "type": "quantitative",
-                "title": "Year"
+    "layer": [
+        {
+            "mark": {
+                "type": "line",
+                "size": 5
             },
-            {
-                "field": "Number of Cafes",
-                "type": "quantitative",
-                "title": "No. of Cafés"
+
+            "encoding": {
+                "x": {
+                    "field": "census_year",
+                    "type": "quantitative",
+                    "title": "Year",
+                    "axis": { "format": "d" },
+                    "scale": { "domain": [2002, 2024] }
+                },
+
+                "y": {
+                    "field": "Number of Cafes",
+                    "type": "quantitative",
+                    "title": null,
+                    "scale": { "domain": [0, 2100] }
+                }
             }
-        ]
-    }
+        },
+
+        {
+            "transform": [
+                {
+                    "filter": {
+                        "param": "hover",
+                        "empty": false
+                    }
+                }
+            ],
+
+            "mark": {
+                "type": "point",
+                "filled": true,
+                "size": 100
+            },
+
+            "encoding": {
+                "x": {
+                    "field": "census_year",
+                    "type": "quantitative"
+                },
+
+                "y": {
+                    "field": "Number of Cafes",
+                    "type": "quantitative"
+                }
+            }
+        },
+
+        {
+            "transform": [
+                {
+                    "filter": {
+                        "param": "hover",
+                        "empty": false
+                    }
+                }
+            ],
+
+            "mark": {
+                "type": "rule",
+                "color": "gray",
+                "strokeWidth": 2
+            },
+
+            "encoding": {
+                "x": {
+                    "field": "census_year",
+                    "type": "quantitative"
+                }
+            }
+        },
+
+        {
+            "mark": "rule",
+
+            "encoding": {
+                "x": {
+                    "field": "census_year",
+                    "type": "quantitative"
+                },
+
+                "opacity": {
+                    "condition": {
+                        "value": 0.001,
+                        "param": "hover",
+                        "empty": false
+                    },
+                    "value": 0
+                },
+
+                "tooltip": [
+                    {
+                        "field": "census_year",
+                        "type": "quantitative",
+                        "title": "Year"
+                    },
+                    {
+                        "field": "Number of Cafes",
+                        "type": "quantitative",
+                        "title": "No. of Cafés"
+                    }
+                ]
+            },
+
+            "params": [
+                {
+                    "name": "hover",
+
+                    "select": {
+                        "type": "point",
+                        "fields": ["census_year"],
+                        "nearest": true,
+                        "on": "mousemove",
+                        "clear": "mouseout"
+                    }
+                }
+            ]
+        }
+    ]
 }
