@@ -3,7 +3,7 @@
     "width": 550,
     "height": 550,
     "data": {
-        "url": "data/cafe_trips_by_lga.csv"
+        "url": "./data/cafe_trips_by_lga.csv"
     },
     "mark": {"type": "bar", "size": 15},
 

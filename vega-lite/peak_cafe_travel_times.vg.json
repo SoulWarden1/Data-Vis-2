@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": {
-        "url": "data/peak_cafe_travel_times.csv"
+        "url": "./data/peak_cafe_travel_times.csv"
     },
     "width": 800,
     "height": 400,

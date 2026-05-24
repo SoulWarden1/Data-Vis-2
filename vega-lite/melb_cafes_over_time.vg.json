@@ -5,7 +5,7 @@
     "height": 200,
 
     "data": {
-        "url": "data/cafes_by_year.csv"
+        "url": "./data/cafes_by_year.csv"
     },
 
     "layer": [
