@@ -5,9 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
-        integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+            integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ"
+            crossorigin="anonymous"
+        />
 
         <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
         <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
@@ -20,55 +23,162 @@
     </head>
 
     <body>
-        <h1>Coffee Culture in Melbourne</h1>
-        <p>Melbourne is renowned for its vibrant coffee culture, with numerous cafés scattered throughout the city. We will now explore the intricacies of Melbourne's coffee scene.</p>
-        <div class="container">
-            <div class="bordered">
-                <h2>Cafés in Melbourne</h2>
-                <div class="cafes_in_melb">
-                    <h3>Cafés per Capita in Melbourne</h3>
-                    <span id="melb_cafes_by_suburb_per_capita"></span>
-                    <h3>Top 10 Suburbs by Cafés per Capita</h3>
-                    <span id="top_suburbs_per_capita"></span>
+        <header class="hero">
+            <div class="hero-content">
+                <h1>Coffee Culture in Melbourne</h1>
+                <p class="hero-text">
+                    Melbourne is renowned for its vibrant café culture, with thousands
+                    of cafés spread across the metropolitan area. This visualisation
+                    explores café density, travel patterns, pricing, and how Melbourne
+                    compares with the rest of the world.
+                </p>
+            </div>
+        </header>
+
+        <main class="dashboard">
+
+            <!-- Section 1 -->
+            <section class="card">
+                <div class="section-title">
+                    <h2>Cafés Across Melbourne</h2>
+                    <p>
+                        Exploring café density and growth throughout Melbourne.
+                    </p>
                 </div>
-                <p>Many of Melbourne's cafes are located in the inner-city suburbs. The further out from the city center, the fewer cafés there are. There are some outliers in the data caused by extremely low population density.</p>
-                <h3>Cafés in Melbourne Over Time</h3>
-                <span id="melb_cafes_over_time"></span>
-                <p>Melbourne's coffee culture has seen significant growth over the years, with a steady increase in the number of cafés. This trend reflects the city's growing appreciation for quality coffee and the vibrant café scene that has become an integral part of Melbourne's identity. This growth has been impacted by COVID and the rise of working from home, but there is a steady rate of recovery.</p>
-            </div>
-            <div class="bordered">
-                <h2>Comparing Melbourne to Other Cities</h2>
-                <h3>Coffee Prices</h3>
-                <span id="coffee_prices"></span>
-                <p>Comparing coffee prices across different cities throughout the world and Australia, we can see that while coffee in Melbourne is expensive compared to other Australian cities, globally it is still relatively affordable.</p>
-                <h3>Global Coffee Consumption</h3>
-                <span id="coffee_consumption_per_capita"></span>
-                <p>Comparing coffee consumption in Melbourne against other nations reveals that Melbourne's consumption is moderate compared to the global average.</p>
-                <!-- <h3>Cafés per Capita</h3> -->
-            </div>
-            <div class="bordered">
-                <h2>Population vs. Café Density</h2>
-                <h3>Melbourne Suburbs: Population and Café Distribution</h3>
-                <span id="population_vs_cafes"></span>
-                <p>This scatter plot reveals the relationship between suburb population and café count, with color intensity showing café density (cafés per 1000 people). The logarithmic scales highlight patterns across suburbs of vastly different sizes, showing that some smaller suburbs have proportionally more cafés than larger ones, indicating popular café destinations.</p>
-            </div>
-            <div class="bordered">
-                <h2>Cafés in Melbourne</h2>
+
+                <div class="chart-grid two-col">
+                    <div class="chart-box">
+                        <h3>Cafés per Capita</h3>
+                        <span id="melb_cafes_by_suburb_per_capita"></span>
+                    </div>
+
+                    <div class="chart-box">
+                        <h3>Top 10 Suburbs</h3>
+                        <span id="top_suburbs_per_capita"></span>
+                    </div>
+                </div>
+
+                <p class="description">
+                    Melbourne’s cafés are heavily concentrated in inner-city suburbs,
+                    while outer suburban areas generally have fewer cafés per resident.
+                    Some extreme values are caused by suburbs with very low population
+                    density.
+                </p>
+
+                <div class="chart-box full-width">
+                    <h3>Cafés Over Time</h3>
+                    <span id="melb_cafes_over_time"></span>
+                </div>
+
+                <p class="description">
+                    Melbourne’s café scene has steadily expanded over time, reflecting
+                    the city’s strong coffee culture. Growth slowed during COVID-19,
+                    though recent years show recovery and continued expansion.
+                </p>
+            </section>
+
+            <!-- Section 2 -->
+            <section class="card">
+                <div class="section-title">
+                    <h2>Melbourne Compared to Other Cities</h2>
+                    <p>
+                        Comparing prices and coffee consumption internationally.
+                    </p>
+                </div>
+
+                <div class="chart-grid two-col">
+                    <div class="chart-box">
+                        <h3>Coffee Prices</h3>
+                        <span id="coffee_prices"></span>
+                    </div>
+
+                    <div class="chart-box">
+                        <h3>Global Coffee Consumption</h3>
+                        <span id="coffee_consumption_per_capita"></span>
+                    </div>
+                </div>
+
+                <p class="description">
+                    While Melbourne coffee is relatively expensive compared to other
+                    Australian cities, it remains affordable globally. Consumption
+                    patterns also show Melbourne sitting around the middle of
+                    international coffee-drinking trends.
+                </p>
+            </section>
+
+            <!-- Section 3 -->
+            <section class="card">
+                <div class="section-title">
+                    <h2>Population vs Café Density</h2>
+                    <p>
+                        Relationship between suburb population and café distribution.
+                    </p>
+                </div>
+
+                <div class="chart-box full-width">
+                    <h3>Population and Café Distribution</h3>
+                    <span id="population_vs_cafes"></span>
+                </div>
+
+                <p class="description">
+                    This scatter plot compares suburb population with café count.
+                    Colour intensity represents cafés per 1000 residents, highlighting
+                    areas that attract café activity beyond their resident population.
+                </p>
+            </section>
+
+            <!-- Section 4 -->
+            <section class="card">
+                <div class="section-title">
+                    <h2>Mapping Melbourne’s Cafés</h2>
+                    <p>
+                        Spatial distribution of cafés throughout Melbourne.
+                    </p>
+                </div>
+
+                <div class="chart-box full-width">
                     <span id="melb_cafes"></span>
-                <p>Location of individual cafés in Melbourne. From this map you can see some notable patterns in café distribution, including around the CBD and major transit corridors (train and tram lines)</p>
-            </div>
-            <div class="bordered">
-                <h2>Café Trip Patterns</h2>
-                <h3>Average Distance to Cafés by LGA (Map)</h3>
-                <span id="cafe_trips_lga_map"></span>
-                <p>This choropleth map visualizes the average distance residents must travel to reach a café in each Local Government Area. Darker colors indicate longer distances, primarily occurring in outer suburban regions further from the city center.</p>
-                <h3>Average Distance to Cafés by LGA</h3>
-                <span id="cafe_trips_by_lga"></span>
-                <p>This visualization shows the average distance residents must travel to reach a café, with the color indicating average trip time. Suburbs are sorted by distance, revealing that while some inner suburbs have close café access, residents in outer suburbs travel significantly further.</p>
-                <h3>Peak Travel Times to Cafés</h3>
-                <span id="peak_cafe_travel_times"></span>
-                <p>This dual-axis chart reveals when Melbourne residents visit cafés throughout the day. The bars show trip frequency, while the red line indicates average travel time. Notable peaks occur at 6pm and 11am, suggesting café visits around dinner time and late morning breaks. Travel times vary by hour, with midday trips generally taking less time than evening commutes.</p>
-            </div>
-        </div>
+                </div>
+
+                <p class="description">
+                    Café locations cluster heavily around the CBD, major train lines,
+                    tram corridors, and high-density inner suburbs.
+                </p>
+            </section>
+
+            <!-- Section 5 -->
+            <section class="card">
+                <div class="section-title">
+                    <h2>Café Travel Patterns</h2>
+                    <p>
+                        Analysing how far residents travel to cafés and when trips occur.
+                    </p>
+                </div>
+
+                <div class="chart-grid two-col">
+                    <div class="chart-box">
+                        <h3>Average Distance by LGA</h3>
+                        <span id="cafe_trips_lga_map"></span>
+                    </div>
+
+                    <div class="chart-box">
+                        <h3>Distance Travelled to Cafés</h3>
+                        <span id="cafe_trips_by_lga"></span>
+                    </div>
+                </div>
+
+                <div class="chart-box full-width">
+                    <h3>Peak Travel Times</h3>
+                    <span id="peak_cafe_travel_times"></span>
+                </div>
+
+                <p class="description">
+                    Outer suburban residents generally travel further to cafés than
+                    inner-city residents. Travel demand peaks during late mornings and
+                    evenings, reflecting café visits during breaks and after work.
+                </p>
+            </section>
+
+        </main>
     </body>
 </html>

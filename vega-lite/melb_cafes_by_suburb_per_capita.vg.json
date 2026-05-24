@@ -3,7 +3,7 @@
 
     "title": "Cafés per 1,000 People by Suburb",
 
-    "width": "800",
+    "width": 800,
     "height": 600,
 
     "projection": {
