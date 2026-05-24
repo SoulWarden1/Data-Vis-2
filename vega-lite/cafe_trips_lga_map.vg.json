@@ -3,7 +3,7 @@
     "width": 700,
     "height": 600,
     "data": {
-        "url": "../data/LGA_POLYGON.json",
+        "url": "data/LGA_POLYGON.json",
         "format": {
             "type": "json",
             "property": "features"
@@ -20,7 +20,7 @@
 
             "from": {
                 "data": {
-                    "url": "../data/cafe_trips_by_lga.csv"
+                    "url": "data/cafe_trips_by_lga.csv"
                 },
 
                 "key": "origlga",
