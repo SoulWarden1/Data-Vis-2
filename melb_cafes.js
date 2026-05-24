@@ -7,8 +7,8 @@ vegaEmbed("#melb_cafes_over_time", vg_2).then(function(result) {}).catch(console
 var vg_3 = "vega-lite/coffee_prices.vg.json";
 vegaEmbed("#coffee_prices", vg_3).then(function(result) {}).catch(console.error);
 
-var vg_4 = "vega-lite/melb_cafes_by_suburb.vg.json";
-vegaEmbed("#melb_cafes_by_suburb", vg_4).then(function(result) {}).catch(console.error);
+// var vg_4 = "vega-lite/melb_cafes_by_suburb.vg.json";
+// vegaEmbed("#melb_cafes_by_suburb", vg_4).then(function(result) {}).catch(console.error);
 
 var vg_5 = "vega-lite/melb_cafes_by_suburb_per_capita.vg.json";
 vegaEmbed("#melb_cafes_by_suburb_per_capita", vg_5).then(function(result) {}).catch(console.error);
@@ -19,5 +19,8 @@ vegaEmbed("#top_suburbs_per_capita", vg_6).then(function(result) {}).catch(conso
 var vg_7 = "vega-lite/coffee_consumption_per_capita.vg.json";
 vegaEmbed("#coffee_consumption_per_capita", vg_7).then(function(result) {}).catch(console.error);
 
-var vg_8 = "vega-lite/cafe_trips_by_lga.vg.json";
-vegaEmbed("#cafe_trips_by_lga", vg_8).then(function(result) {}).catch(console.error);
+var vg_8 = "vega-lite/cafe_trips_lga_map.vg.json";
+vegaEmbed("#cafe_trips_lga_map", vg_8).then(function(result) {}).catch(console.error);
+
+var vg_9 = "vega-lite/cafe_trips_by_lga.vg.json";
+vegaEmbed("#cafe_trips_by_lga", vg_9).then(function(result) {}).catch(console.error);

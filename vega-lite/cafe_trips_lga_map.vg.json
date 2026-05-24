@@ -1,0 +1,70 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 800,
+    "height": 700,
+    "data": {
+        "url": "../data/LGA_POLYGON.json",
+        "format": {
+            "type": "json",
+            "property": "features"
+        }
+    },
+    "transform": [
+        {
+            "calculate": "datum.properties.LGA_NAME",
+            "as": "lga_name"
+        },
+
+        {
+            "lookup": "lga_name",
+
+            "from": {
+                "data": {
+                    "url": "../data/cafe_trips_by_lga.csv"
+                },
+
+                "key": "origlga",
+
+                "fields": ["triptime", "cumdist"]
+            }
+        }
+    ],
+    "projection": {
+        "type": "identity",
+        "reflectY": true
+    },
+    "mark": {
+        "type": "geoshape",
+        "stroke": "white",
+        "strokeWidth": 1.5
+    },
+    "encoding": {
+        "color": {
+            "field": "cumdist",
+            "type": "quantitative",
+            "title": "Avg Distance to Café (km)",
+            "scale": {
+                "scheme": "yellowgreenblue"
+            }
+        },
+        "tooltip": [
+            {
+                "field": "properties.LGA_NAME",
+                "type": "nominal",
+                "title": "LGA"
+            },
+            {
+                "field": "triptime",
+                "type": "quantitative",
+                "title": "Avg Trip Time (min)",
+                "format": ".2f"
+            },
+            {
+                "field": "cumdist",
+                "type": "quantitative",
+                "title": "Avg Distance (km)",
+                "format": ".2f"
+            }
+        ]
+    }
+}
