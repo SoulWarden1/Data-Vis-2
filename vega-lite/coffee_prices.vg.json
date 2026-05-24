@@ -28,7 +28,7 @@
                 "x": {
                     "field": "Price",
                     "type": "quantitative",
-                    "title": "Price",
+                    "title": "Price ($AUD)",
                     "axis": { "format": "$", "tickMinStep": 0.5 }
                 }
             }
