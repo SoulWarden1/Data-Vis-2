@@ -3,8 +3,7 @@
     "data": {
         "url": "../data/peak_cafe_travel_times.csv"
     },
-    "title": "Peak Travel Times to Cafés by Hour of Day",
-    "width": 700,
+    "width": 800,
     "height": 400,
 
     "mark": {

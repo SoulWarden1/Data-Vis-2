@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-    "width": 700,
-    "height": 400,
+    "width": 630,
+    "height": 600,
 
     "data": {
         "url": "data/LOCALITY_POLYGON_WITH_COUNTS.json",

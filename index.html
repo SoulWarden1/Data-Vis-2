@@ -42,28 +42,63 @@
                 <div class="section-title">
                     <h2>Cafés Across Melbourne</h2>
                     <p>
-                        Exploring café density and growth throughout Melbourne.
+                        Exploring café density, ease of access and growth throughout Melbourne.
                     </p>
                 </div>
 
                 <div class="chart-grid two-col">
                     <div class="chart-box">
-                        <h3>Cafés per Capita</h3>
+                        <h3>Cafés per 1000 People</h3>
                         <span id="melb_cafes_by_suburb_per_capita"></span>
                     </div>
 
                     <div class="chart-box">
-                        <h3>Top 10 Suburbs</h3>
+                        <h3>Top 10 Suburbs by Cafés per 1000 People</h3>
                         <span id="top_suburbs_per_capita"></span>
                     </div>
                 </div>
 
                 <p class="description">
-                    Melbourne’s cafés are heavily concentrated in inner-city suburbs,
+                    Melbourne's cafés are heavily concentrated in inner-city suburbs,
                     while outer suburban areas generally have fewer cafés per resident.
                     Some extreme values are caused by suburbs with very low population
                     density.
                 </p>
+
+                <br>
+                <div class="chart-grid two-col">
+
+                    <div class="chart-box">
+                        <h3>Average Distance to a Café by LGA</h3>
+                        <span id="cafe_trips_lga_map"></span>
+                    </div>
+
+                    <div class="chart-box">
+                        <h3>Distance Travelled to Cafés by LGA</h3>
+                        <span id="cafe_trips_by_lga"></span>
+                    </div>
+                </div>
+                <p class="description">
+                    Residents of outer suburban LGAs generally travel further to reach
+                    cafés than those in inner-city areas. This reflects the lower café
+                    density in outer suburbs, as well as the tendency for residents to
+                    travel to more central areas for work and leisure activities.
+                </p>
+
+                <div class="chart-box full-width">
+                    <h3>Population and Café Distribution</h3>
+                    <span id="population_vs_cafes"></span>
+                </div>
+
+                <p class="description">
+                    This scatter plot compares suburb population with café count.
+                    Colour intensity represents cafés per 1000 residents, highlighting
+                    areas that attract café activity beyond their resident population.
+                    Of note are inner-city suburbs with high café density relative to population, which hug the left side of the main group of points.
+                    All of the black dots on the far left of the plot are suburbs with very low population, such as industrial areas or airports,
+                    but have cafés that serve commuters and workers in those areas.
+                </p>
+
 
                 <div class="chart-box full-width">
                     <h3>Cafés Over Time</h3>
@@ -71,9 +106,9 @@
                 </div>
 
                 <p class="description">
-                    Melbourne’s café scene has steadily expanded over time, reflecting
-                    the city’s strong coffee culture. Growth slowed during COVID-19,
-                    though recent years show recovery and continued expansion.
+                    Melbourne's café scene has steadily expanded over time, reflecting
+                    the city's strong coffee culture. Growth was stunted during the COVID-19
+                    pandemic, though recent years show recovery and continued expansion.
                 </p>
             </section>
 
@@ -106,27 +141,6 @@
                 </p>
             </section>
 
-            <!-- Section 3 -->
-            <section class="card">
-                <div class="section-title">
-                    <h2>Population vs Café Density</h2>
-                    <p>
-                        Relationship between suburb population and café distribution.
-                    </p>
-                </div>
-
-                <div class="chart-box full-width">
-                    <h3>Population and Café Distribution</h3>
-                    <span id="population_vs_cafes"></span>
-                </div>
-
-                <p class="description">
-                    This scatter plot compares suburb population with café count.
-                    Colour intensity represents cafés per 1000 residents, highlighting
-                    areas that attract café activity beyond their resident population.
-                </p>
-            </section>
-
             <!-- Section 4 -->
             <section class="card">
                 <div class="section-title">
@@ -155,30 +169,61 @@
                     </p>
                 </div>
 
-                <div class="chart-grid two-col">
-                    <div class="chart-box">
-                        <h3>Average Distance by LGA</h3>
-                        <span id="cafe_trips_lga_map"></span>
-                    </div>
-
-                    <div class="chart-box">
-                        <h3>Distance Travelled to Cafés</h3>
-                        <span id="cafe_trips_by_lga"></span>
-                    </div>
-                </div>
-
                 <div class="chart-box full-width">
-                    <h3>Peak Travel Times</h3>
+                    <h3>Peak Cafe Travel Times</h3>
                     <span id="peak_cafe_travel_times"></span>
                 </div>
 
                 <p class="description">
-                    Outer suburban residents generally travel further to cafés than
-                    inner-city residents. Travel demand peaks during late mornings and
-                    evenings, reflecting café visits during breaks and after work.
+                    Travel demand peaks during late mornings and evenings, reflecting café visits during breaks and after work.
                 </p>
             </section>
 
+            <section class="card">
+                <h2>References</h2>
+                <h3>Shared Data Sources</h3>
+                <ol>
+                    <li>
+                        <a href="https://datashare.maps.vic.gov.au/search?q=uuid%3D47352a58-1fd6-5b50-a2ec-9df8afdf8ac9">Melbourne Suburb Boundaries</a>
+                    </li>
+                    <li>
+                        <a href="https://datashare.maps.vic.gov.au/search?md=cff349f9-3ef3-51bd-b5a9-ae650f6d6c24">Melbourne LGA Boundaries</a>
+                    </li>
+                    <li>
+                        <a href="https://www.abs.gov.au/census/find-census-data/datapacks">ABS Census Data</a>
+                    </li>
+                    <li>
+                        <a href="https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/allocation-files/SAL_2021_AUST.xlsx">SAL Codes to Suburb Names</a>
+                    </li>
+                    <li>
+                        <a href="https://opendata.transport.vic.gov.au/dataset/victorian-integrated-survey-of-travel-and-activity-vista">VISTA (Victorian Integrated Survey of Travel and Activity)</a>
+                    </li>
+                    <li>
+                        <a href="https://discover.data.vic.gov.au/dataset/cafe-restaurant-bistro-seats">Café, restaurant, bistro seats</a>
+                        <p>This data only covers the City of Melbourne.</p>
+                    </li>
+                    <li>
+                        <a href="https://overpass-turbo.eu/">Overpass Turbo</a>
+                        <p>This was used to extract café locations from OpenStreetMap. The following query was used:</p>
+                        <pre><code>[out:json][timeout:90];
+(
+node["amenity"="cafe"]["cuisine"!="bubble_tea"](-38.20,144.70,-37.60,145.40);
+way["amenity"="cafe"]["cuisine"!="bubble_tea"](-38.20,144.70,-37.60,145.40);
+relation["amenity"="cafe"]["cuisine"!="bubble_tea"](-38.20,144.70,-37.60,145.40);
+);
+out center;</code></pre>
+                    </li>
+                </ol>
+                <h3>Coffee Prices by City</h3>
+                <ol>
+                    <li>
+                        <a href="https://www.sbs.com.au/news/article/think-5-50-is-too-much-for-a-flat-white-the-price-of-coffee-may-soon-need-to-change/y2v9rovh2">SBS</a>
+                    </li>
+                    <li>
+                        <a href="https://pabloandrustys.com.au/blogs/drinkbettercoffee/global-coffee-prices">Pablo and Rusty's Coffee Roasters</a>
+                    </li>
+                </ol>
+            </section>
         </main>
     </body>
 </html>

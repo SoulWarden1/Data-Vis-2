@@ -67,7 +67,6 @@ body {
 .section-title h2 {
     font-size: 2.2rem;
     margin-bottom: 10px;
-    color: #3e2723;
 }
 
 .section-title p {
@@ -77,8 +76,8 @@ body {
 }
 
 h3 {
+    font-size: 1.5rem;
     margin-bottom: 20px;
-    color: #4e342e;
 }
 
 /* ---------- CHARTS ---------- */
@@ -99,6 +98,10 @@ h3 {
     padding: 20px;
     border: 1px solid #e0e0e0;
     overflow-x: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* centers horizontally */
 }
 
 .full-width {

@@ -1,48 +1,51 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 500,
-  "height": 600,
-  "data": {
-    "url": "../data/cafe_trips_by_lga.csv"
-  },
-  "title": "Average Distance to Cafés by LGA",
-  "mark": "bar",
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 550,
+    "height": 550,
+    "data": {
+        "url": "../data/cafe_trips_by_lga.csv"
+    },
+    "mark": {"type": "bar", "size": 15},
 
-  "encoding": {
-    "x": {
-      "field": "cumdist",
-      "type": "quantitative",
-      "title": "Average Distance to Café (km)"
-    },
-    "y": {
-      "field": "origlga",
-      "type": "nominal",
-      "title": "LGA",
-      "sort": "x"
-    },
-    "color": {
-      "field": "triptime",
-      "type": "quantitative",
-      "title": "Average Trip Time (min)"
-    },
-    "tooltip": [
-      {
-        "field": "origlga",
-        "type": "nominal",
-        "title": "LGA"
-      },
-      {
-        "field": "cumdist",
-        "type": "quantitative",
-        "title": "Avg Distance to Café (km)",
-        "format": ".2f"
-      },
-      {
-        "field": "triptime",
-        "type": "quantitative",
-        "title": "Avg Trip Time (min)",
-        "format": ".2f"
-      }
-    ]
-  }
+    "encoding": {
+        "x": {
+            "field": "cumdist",
+            "type": "quantitative",
+            "title": "Average Distance to Café (km)"
+        },
+        "y": {
+            "field": "origlga",
+            "type": "nominal",
+            "title": "LGA",
+            "sort": "x"
+        },
+        "color": {
+            "field": "triptime",
+            "type": "quantitative",
+            "title": "Average Trip Time (min)",
+            "legend": {
+                "title": "Average Trip Time (min)",
+                "orient": "bottom"
+            }
+        },
+        "tooltip": [
+            {
+                "field": "origlga",
+                "type": "nominal",
+                "title": "LGA"
+            },
+            {
+                "field": "cumdist",
+                "type": "quantitative",
+                "title": "Avg Distance to Café (km)",
+                "format": ".2f"
+            },
+            {
+                "field": "triptime",
+                "type": "quantitative",
+                "title": "Avg Trip Time (min)",
+                "format": ".2f"
+            }
+        ]
+    }
 }

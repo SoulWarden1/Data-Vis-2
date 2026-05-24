@@ -1,10 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-    "title": "Cafés per 1,000 People by Suburb",
-
-    "width": 800,
-    "height": 600,
+    "width": 700,
+    "height": 550,
 
     "projection": {
         "type": "identity",
