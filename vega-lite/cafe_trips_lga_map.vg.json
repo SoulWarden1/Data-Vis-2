@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 700,
+    "width": 550,
     "height": 600,
     "data": {
         "url": "./data/LGA_POLYGON.json",
